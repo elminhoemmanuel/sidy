@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    overflow-x: hidden;
+    font-size: 1em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overview,.teams, .reports, .products, .messages{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 90vh;
+    font-size: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.overview {
+    background-image: url('./images/home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .teams {
+    background-image: url('./images/services.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .products {
+    background-image: url('./images/products.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
   }
-}
+  
+  .reports {
+    background-image: url('./images/contact.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .messages {
+    background-image: url('./images/signup.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+
+  
+
