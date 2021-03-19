@@ -19,6 +19,8 @@ const NavIcon = styled(Link)`
     font-size:2rem;
     height:80px;
     display:flex;
+    color:#FFF;
+    text-decoration:none;
     justify-content:flex-start;
     align-items:center;
 `
@@ -50,7 +52,7 @@ const Sidebar = () => {
             <IconContext.Provider value={{color:'#fff'}}>
                 <Nav>
                     <NavIcon to='#'>
-                        <FaIcons.FaBars onClick={showSidebar}/>
+                        <FaIcons.FaBars onClick={showSidebar}/>&nbsp;&nbsp;Click Icon
                     </NavIcon>
                 </Nav>
 
